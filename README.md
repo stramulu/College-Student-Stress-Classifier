@@ -158,7 +158,7 @@ Contributions are welcome! Please feel free to:
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 👥 Authors
+## Authors
 
 - **Shreyas Ramulu** - Initial work
 
