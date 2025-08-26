@@ -162,7 +162,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 - **Shreyas Ramulu** - Initial work
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Dataset providers for making this research possible
 - Open source community for the excellent libraries used
