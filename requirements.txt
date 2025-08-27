@@ -1,0 +1,15 @@
+pandas
+numpy
+matplotlib
+seaborn
+
+scikit-learn
+tensorflow-macos      
+tensorflow-metal      
+
+ipykernel      
+
+joblib
+streamlit
+dotenv
+openai
