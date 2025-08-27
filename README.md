@@ -102,12 +102,14 @@ OPENAI_API_KEY=your_openai_api_key_here
    source tfenv/bin/activate  # On macOS/Linux
    ```
 
-2. **Launch the Streamlit app**:
+2. **Run all cells of models.ipynb**
+
+3. **Launch the Streamlit app**:
    ```bash
    streamlit run app.py
    ```
 
-3. **Access the application**:
+4. **Access the application**:
    - Open your browser and navigate to `http://localhost:8501`
    - Use the "Stress Prediction" tab to input your information and get stress predictions
    - Use the "AI Chatbot" tab to ask questions about stress management and wellbeing
@@ -122,6 +124,7 @@ OPENAI_API_KEY=your_openai_api_key_here
 2. **Open and run the analysis notebook**:
    - Open `models.ipynb`
    - Run all cells to execute the complete analysis
+   - This will create our packaged model used by app.py
 
 ### Model Files
 - The trained Random Forest model is saved as `stress_random_forest_model.pkl`
@@ -175,9 +178,9 @@ stress/
 │   └── Stress_Dataset.csv        # Additional dataset (843 samples)
 ├── app.py                        # Streamlit web application
 ├── models.ipynb                  # Jupyter notebook with model analysis
-├── stress_random_forest_model.pkl # Trained Random Forest model
+├── stress_random_forest_model.pkl # Trained Random Forest model (make using models.ipynb)
 ├── requirements.txt              # Python dependencies
-├── tfenv/                        # Virtual environment
+├── tfenv/                        # Virtual environment (create this)
 ├── .env                          # Environment variables (create this)
 └── README.md                     # This file
 ```
